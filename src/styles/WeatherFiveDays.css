@@ -1,0 +1,21 @@
+.five{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1vw;
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(230, 250, 255, 0.15);
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 0 4px rgba(0,0,0,0.7);;
+    padding: 10px;
+}
+
+.day .temp{
+    font-weight: bold;
+}
