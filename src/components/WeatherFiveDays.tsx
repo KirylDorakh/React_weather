@@ -1,7 +1,6 @@
 import * as React from "react";
 
 import "../styles/WeatherFiveDays.css"
-import weatherInfo from "./WeatherInfo";
 
 function WeatherFiveDays({weatherFiveDays}){
     const convertData = ( timestamp ) => {

@@ -2,12 +2,12 @@ import * as React from "react"
 
 import "../styles/Main.css"
 
-import RequestOneDay from "./RequestOneDay";
+import Forms from "./Forms";
 
 function Main(){
     return (
         <main>
-            <RequestOneDay />
+            <Forms />
         </main>
     )
 }
