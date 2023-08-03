@@ -10,7 +10,6 @@ function RequestCurrentPosition({coords}) {
 
     useEffect(()=>{
         if (coords) {
-            console.log("header Current Position")
             axios
                 .get(
                     `https://api.openweathermap.org/data/2.5/weather?lat=${coords[0]}&lon=${coords[1]}&units=metric&appid=${APIkey}`
